@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.articulo{
+    display: flex;
+    flex-direction: row;
+}
+figure{
+    width: 23em;
+    height: 60vh;
+    background-color: rgb(8, 8, 8);
+    padding: 1em;
+    
+    
+}
+img{
+    width: 100%;
+    height: 80%;
+}
+figcaption{
+    background-color: rgba(255, 0, 242, 0.288);
+    padding: 1em;
+    color: white;
+}
+main{
+    background-color: black;
+}
+
+label{
+    color: white;
+}
+
+@media all and (min-width:700px) {
+    header, footer {
+        background-color:lightblue;
+        text-align: center;
+        color: navy;
+    }
+
+    header, footer {
+        padding: 1em;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: navy;
+        font-size: 1.5em;
+    }
+
+    footer a:hover, footer a:focus {
+        background-color: navy;
+        color: powderblue;
+    }
+}
