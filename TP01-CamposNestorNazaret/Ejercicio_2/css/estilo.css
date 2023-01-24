@@ -1,0 +1,44 @@
+* {
+    border:0;
+    padding:0;
+    margin:0;
+} /*aqui limpio los border, padding y margin de mi archivo*/
+
+/*-----------Desde aqui lo que ago es darles una capa muy superficial de estetica a las etiquetas-------*/
+header {
+    padding: 3em;
+    background-color: rgb(255, 4, 4);
+}
+
+h2{
+    padding: 0.5em;
+}    
+
+article{
+    background-color: rgb(250, 165, 165);
+    border: solid 0.1em rgb(22, 19, 19);
+    width: 30em;
+    margin: 3em;
+    padding-bottom: 1em;
+}
+
+article p {  
+    margin-left: 2em;
+    padding-top: 0.8em;
+    font-size: 1.3em;
+}
+.parrafo {
+    background-color: red;
+    text-align: center;
+    padding: 1em;
+}
+
+main{
+    height: 70vh;
+    background-color: #ffffffbe));
+    padding: 1em;
+    
+}
+footer {
+    background-color: red;
+}

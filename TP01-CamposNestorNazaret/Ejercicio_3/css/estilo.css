@@ -1,0 +1,78 @@
+* {
+    border:0;
+    padding:0;
+    margin:0;
+} /*aqui limpio los border, padding y margin de mi archivo*/
+
+/*-----------Desde aqui lo que ago es darles una capa muy superficial de estetica a las etiquetas-------*/
+/*----------------------------------Encavezado.html------------------------------------*/
+header {
+    padding: 3em;
+    background-color: rgb(255, 0, 0);
+}
+
+h2{
+    padding: 0.5em;
+}    
+
+article{
+    background-color: rgb(250, 165, 165);
+    border: solid 0.1em rgb(22, 19, 19);
+    width: 30em;
+    margin: 3em;
+    padding-bottom: 1em;
+}
+
+article p {  
+    margin-left: 2em;
+    padding-top: 0.8em;
+    font-size: 1.3em;
+}
+.parrafo {
+    background-color: red;
+    text-align: center;
+    padding: 1em;
+}
+
+main{
+    height: 70vh;
+    background-color: #ffffffbe));
+    padding: 1em;
+    
+}
+/*-------------------------------------------------------------------------------------*/
+/*----------------------------------CSS de la tabla------------------------------------*/
+table{
+    border: 0.3em solid black;
+    border-collapse: collapse;
+    margin-left: 2.4em;
+    background-color: rgb(255, 197, 197);
+    
+}
+table caption{
+    font-size: 1.2em;
+    padding:0.3em ;
+}
+th{
+    width: 8em;
+    height: 2em;
+    
+}
+td{
+    border: 0.2em solid rgb(78, 61, 61);
+    width: 8em;
+    height: 2em;
+    text-align: center;
+}
+.sueldo{
+    text-align: end;
+    padding-right: 1em;
+}
+/*----------------------------------------------------------------------------------------*/
+
+
+/*-------------------------------------CSS de pie.html------------------------------------*/
+footer {
+    background-color: rgb(255, 0, 0);
+}
+/*----------------------------------------------------------------------------------------*/
