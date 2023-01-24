@@ -1,0 +1,6 @@
+34256853;Mario Rodríguez;Programador Universitario
+32004866;Romina Pérez;Ingeniería en Informática
+35758781;Luciana Menéndez;Programador Universitario
+36124855;Óscar Monteros;Programador Universitario
+32438545;Mariano Sosa;Ingeniería en Informática
+33890068;Carla Romano;Licenciatura de Informática
