@@ -1,0 +1,54 @@
+* {
+    border:0;
+    padding:0;
+    margin:0;
+} /*aqui limpio los border, padding y margin de mi archivo*/
+
+/*-----------Desde aqui lo que ago es darles una capa muy superficial de estetica a las etiquetas-------*/
+/*----------------------------------Encavezado.html------------------------------------*/
+header {
+    padding: 3em;
+    background-color: rgb(189, 189, 189);
+}
+
+h2{
+    padding: 0.5em;
+}    
+
+article{
+    background-color: rgba(226, 226, 226, 0.603);
+    border: solid 0.1em rgb(22, 19, 19);
+    width: 30em;
+    margin: 3em;
+    
+    margin: 1em;
+}
+
+
+.parrafo {
+    background-color: rgb(189, 189, 189);
+    text-align: center;
+    padding: 1em;
+}
+.parrafo1{
+    font-size: 1.8em;
+    padding-bottom: 0.7em;
+}
+.parrafo2{
+    color: blue;
+    font-size: 1.2em;
+}
+
+main{
+    
+    background-color: #ffffffbe;
+    padding: 1em;
+    
+}
+/*-------------------------------------------------------------------------------------*/
+
+
+
+footer {
+    background-color: rgb(189, 189, 189);
+}

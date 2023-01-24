@@ -1,0 +1,67 @@
+* {
+    border:0;
+    padding:0;
+    margin:0;
+} /*aqui limpio los border, padding y margin de mi archivo*/
+
+/*-----------Desde aqui lo que ago es darles una capa muy superficial de estetica a las etiquetas-------*/
+header {
+    padding: 3em;
+    background-color:  #d3244a;
+}
+
+h1{
+    text-align: center;
+    color:white;
+}
+
+h2{
+    padding: 0.5em;
+}
+
+aside p{
+    padding: 0.5em;
+    padding-left: 5em;
+    font-size: 1.3em;
+    
+}    
+li{
+    list-style: none;
+    padding: 1em;
+    background-color: #d3244a;
+    margin: 1em;
+    text-align: center;
+    color:white;
+}
+
+
+article p {  
+    margin-left: 2em;
+    padding-top: 0.8em;
+    font-size: 1.3em;
+}
+.parrafo {
+    background-color: #d3244a;
+    text-align: center;
+    padding: 1em;
+}
+
+main{
+    
+    background-color: rgba(255, 212, 131, 0.445);
+    padding: 1em;
+    width: 80%
+    
+}
+aside{
+    background-color: rgb(209, 170, 96);
+    width: 20%;
+}
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    background-color:  #d3244a;
+}
