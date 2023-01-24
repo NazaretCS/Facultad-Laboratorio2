@@ -1,0 +1,48 @@
+* {
+    border:0;
+    padding:0;
+    margin:0;
+} /*aqui limpio los border, padding y margin de mi archivo*/
+
+/*-----------Desde aqui lo que ago es darles una capa muy superficial de estetica a las etiquetas-------*/
+header {
+    padding: 2em;
+    background-color: rgba(0, 0, 0, 0.253);
+    
+}
+
+
+
+article p {
+    width: 14em;
+    
+    
+    background-color: rgba(255, 255, 255, 0.123);
+    margin-left: 6em;
+    padding-top: 0.8em;
+    
+    border-radius: 23%;
+    
+}
+.parrafo {
+    background-color: rgba(0, 0, 0, 0.253);
+    text-align: center;
+    padding: 1em;
+}
+.ganador{
+    font-size: 1.7em;
+    color: rgb(197, 58, 58);
+}
+.perdedor{
+    font-size: 1.5em;
+}
+h2 {
+    padding-left: 3em;
+}
+main{
+    
+    background-color:rgba(0, 0, 0, 0.082);
+    padding: 1em;
+    
+}
+
