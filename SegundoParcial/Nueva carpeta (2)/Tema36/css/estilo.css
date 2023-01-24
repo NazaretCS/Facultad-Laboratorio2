@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+h2{
+    margin-top: 1.8em;
+    margin-bottom: 0.9em;
+}
+
+h3{
+    margin-top: 1.6em;
+    margin-bottom: 0.8em;
+}
+
+h4{
+    margin-top: 1.4em;
+    margin-bottom: 0.7em;
+}
+
+.text-center{
+    text-align: center;
+}
+
+nav{
+    background-color: #4AB0D9;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    height: min-content;
+    margin: 1em 0em;
+}
+
+nav a{
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #DDD;
+    text-transform: uppercase;
+    background-color: #1B65A6;
+}
+
+main{
+    margin: auto;
+    width: 80%;
+    margin-top: 2em; 
+}
+
+main > h1, main>h2, main > h3{
+    text-align: center;
+}
+
+main form{
+    text-align: center;
+}
+
+form label,form input{
+    margin-top: .5em;
+}
+
+form input[type=submit]{
+    margin-top: 1em;
+    padding: .3em .5em;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: .2em .3em;
+}
+
+table img{
+    width: 6em;
+}
+
+.img-tabla{
+    width: 6em;
+}
