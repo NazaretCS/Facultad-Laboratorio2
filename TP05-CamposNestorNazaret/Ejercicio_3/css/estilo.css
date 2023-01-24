@@ -1,0 +1,111 @@
+* {
+    border:0;
+    padding:0;
+    margin:0;
+} /*aqui limpio los border, padding y margin de mi archivo*/
+
+
+header {
+    padding: 2em;
+    background-color: rgba(129, 165, 231, 0.349);   
+}
+
+main{
+    background-color:  rgba(129, 165, 231, 0.26) ;
+    
+}
+
+section{
+    padding: 1em;
+}
+.form {
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+    width: 15em;
+    height: 35vh;
+    margin: 0 auto;
+    padding-top: 3em;
+    border-radius: 0.7em;   
+}
+
+article{
+    padding: 1em;
+    
+}
+
+h1 {
+    padding-left: 3em;
+}
+ 
+.datos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 25em;
+}
+
+legend{
+    padding-left: 0.5em;
+    padding-bottom: 1em;
+    font-size: 1.1em;
+    color: #e90b73 ;
+}
+
+input{
+    width: 15em;
+    height: 1.5em;
+    border-bottom: solid 0.1em #e90b73;
+    margin: 0.6em;
+    background-color: white;
+}
+
+.boton{
+    color: #e90b73 ;
+    border: solid 0.1em #e90b73;
+    height: 3.5em;
+    width: 7.2em;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1.5em;
+    border-radius: 0.4em;
+    margin-left: 5em;
+}
+
+.parrafo {
+    background-color: rgba(129, 165, 231, 0.37);
+    text-align: center;
+    padding: 1em;
+    
+}
+
+.lsitado{
+    width: 9em;
+    height: 23vh;
+    
+}
+
+ul{
+    list-style: none;
+    
+    margin-bottom: 1em;
+    
+}
+
+li{
+    width: 8em;
+    height: 5vh;
+    background-color: red;
+    margin: 0.3em;
+    list-style: none;
+    text-align: center;
+    color: white;
+    padding-top: 0.8em;
+    
+}
+
+
+
+
+
+
+

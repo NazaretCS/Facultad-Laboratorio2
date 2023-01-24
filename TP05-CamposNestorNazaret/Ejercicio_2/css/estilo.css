@@ -1,0 +1,43 @@
+* {
+    border:0;
+    padding:0;
+    margin:0;
+} /*aqui limpio los border, padding y margin de mi archivo*/
+
+/*-----------Desde aqui lo que ago es darles una capa muy superficial de estetica a las etiquetas-------*/
+header {
+    padding: 3em;
+    background-color:  orange;
+}
+
+img{
+    width: 3.5em;
+    height: 8vh;
+}
+table{
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border: 0.3em solid rgba(255, 166, 0, 0.774);
+    width: 50em;
+}
+
+table, tr{
+    border-collapse: collapse;
+    border: 0.1em solid rgba(255, 166, 0, 0.774);
+}
+
+table caption{
+    background-color: orange;
+    color: white;
+    padding: 0.5em;
+}
+.sinCupos{
+    color: red;
+}
+footer{
+    background-color: orange;
+    text-align: center;
+    font-size: 1em;
+    padding: 1em;
+}
