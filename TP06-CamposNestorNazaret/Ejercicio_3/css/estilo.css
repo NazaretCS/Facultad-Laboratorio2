@@ -1,0 +1,92 @@
+* {
+    border:0;
+    padding:0;
+    margin:0;
+} /*aqui limpio los border, padding y margin de mi archivo*/
+
+/*-----------Desde aqui lo que ago es darles una capa muy superficial de estetica a las etiquetas-------*/
+/*----------------------------------Encavezado.html------------------------------------*/
+header {
+    padding: 3em;
+    background-color: rgba(65, 105, 225, 0.466);
+}
+
+h2{
+    padding: 0.5em;
+}    
+
+
+.parrafo{
+    background-color: rgba(65, 105, 225, 0.466);
+    text-align: center;
+    padding: 1em
+}
+
+
+main{
+    background-color: rgba(65, 105, 225, 0.11);
+    padding: 1em;
+    padding-left: 15em;
+}
+
+
+footer {
+    background-color: rgba(65, 105, 225, 0.466);
+    height: 3em;
+}
+
+.articulo{
+    display: flex;
+    flex-direction: row;
+}
+
+.boton{
+    padding: 1.4em;
+    margin: 2em;
+    background-color: blue;
+    color: white;
+    
+}
+
+.boton1{
+    padding: 1.4em;
+    margin: 2em;
+    border: 0.1em solid green;
+    background-color: rgb(0, 255, 0);
+    color: white;
+    width: 12em;
+    
+}
+
+.boton2{
+    padding: 1.4em;
+    margin: 2em;
+    border: 0.1em solid rgb(158, 108, 14);
+    background-color: rgb(255, 72, 0);
+    color: white;
+    width: 6em;
+    
+}
+
+input{
+    margin: 1em;
+    padding: 0.4em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+a{
+    padding: 1em;
+    background-color: rgba(58, 103, 238, 0.719);
+    margin-left: 0.5em;
+    color: black;
+}
+
+.final{
+    font-size: 1.3em;
+    color: red;
+}
