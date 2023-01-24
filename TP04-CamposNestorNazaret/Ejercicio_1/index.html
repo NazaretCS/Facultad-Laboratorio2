@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Campos Nazaret">
+    <link rel="stylesheet" href="ccs/estilo.css">
+    <title>Cargar</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulario de carga de usuarios</h1>
+    </header>
+    <main>
+        <section>
+            <article>
+                <form action="/TP04-CamposNestorNazaret/Ejercicio_1/php/validar.php" method="POST" >
+                <fieldset class="datos">
+                    <label for="ape">Apellido:
+                        <input type="text" name="apellido" id="ape" placeholder="Indique su apellido" >
+                    </label>
+                    <label for="nom">Nombre:
+                        <input type="text" name="nombre" id="nom" placeholder="Indique su nombre">
+                    </label>
+                    <label for="usu">Usuario:
+                        <input type="text" name="usuario" id="usu" placeholder="Indique su nombre de usuario">
+                    </label>
+                    <label for="cont">Contraseña:
+                        <input type="password" name="contraseña" id="cont">
+                    </label>
+                    <label for="tip">Tipo:
+                        <select name="tipo" id="tip">
+                            <option value="usuario">Usuario</option>
+                            <option value="visitante" >Visitante</option>
+                            <option value="administrador" >Administrador</options>
+                        </select>
+                    </label>
+                    <input type="submit" value="Enviar" class="boton">
+                    
+                </fieldset>
+                
+                
+                </form> 
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p class="parrafo">Copyright 2021 - Campos Nazaret</p>
+    </footer>
+</body>
+</html>
