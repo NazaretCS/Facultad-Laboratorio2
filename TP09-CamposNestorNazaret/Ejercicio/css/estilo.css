@@ -1,0 +1,236 @@
+* {
+    border:0;
+    padding:0;
+    margin:0;
+} /*aqui limpio los border, padding y margin de mi archivo*/
+
+
+header {
+    padding: 2em;
+    background-color: #e90b73d2;   
+}
+
+main{
+    background-color:  #CBD1DD;
+    
+}
+
+ /*section{
+    padding: 1em;
+} */
+.form {
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+    width: 15em;
+    height: 35vh;
+    margin: 0 auto;
+    padding-top: 3em;
+    border-radius: 0.7em;   
+}
+
+article{
+    padding: 1em;
+    
+    
+    
+}
+
+h1 {
+    padding-left: 3em;
+}
+ 
+.datos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 25em;
+}
+
+.datos2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    width: 55em;
+}
+.datos2 input{
+    
+    width: 26em;
+    height: 1.5em;
+    border-bottom: solid 0.1em #e90b73;
+    margin: 0.6em;
+    background-color: white;
+    
+}
+legend{
+    padding-left: 0.5em;
+    padding-bottom: 1em;
+    font-size: 1.1em;
+    color: #e90b73 ;
+}
+
+input{
+    width: 15em;
+    height: 1.5em;
+    border-bottom: solid 0.1em #e90b73;
+    margin: 0.6em;
+    background-color: white;
+}
+
+.boton{
+    color: #e90b73 ;
+    border: solid 0.1em #e90b73;
+    height: 3.5em;
+    width: 7.2em;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1.5em;
+    border-radius: 0.4em;
+    margin-left: 5em;
+}
+
+.botones{    
+    color: #e90b73 ;
+    border: solid 0.1em #e90b73;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.4em;
+    height: 0.5em;
+    width: 7.2em;    
+    margin-top: 0.5em;    
+    margin-left: 1em;
+    padding-left: 5em;
+    
+    padding-top: 0.5em;
+
+
+}
+
+.parrafo {
+    background-color: #e90b73d2;
+    text-align: center;
+    padding: 1em;
+    
+}
+
+h2{
+    text-align: center;
+    padding: 0.7em;
+}
+
+table{
+    border-collapse: collapse;
+    border: solid 0.3em #000000;
+    text-align: center;
+    
+}
+
+td{
+    border: solid 0.3em #000000;
+    background-color: white;
+    width: 5em;
+    height: 4vh;
+}
+
+th{
+    color: white;
+    background-color: #e90b73;
+    width: 5em;
+    height: 4vh;
+}
+
+.seccion{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+nav p{
+    padding: 0.3em;    
+    font-size: 1.2em;
+}
+
+
+li {
+    list-style: none;
+    background-color: #e90b73;
+    padding: 0.3em;
+    width: 10em;
+    height: 1.5em;
+    text-align: center;
+    padding-top: 0.6em;
+    margin: 0.2em;
+    color: white;
+}
+ul{
+    padding: 0.4em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.peliculas {
+    display: flex;
+    flex-direction: row;
+    background-color: #F4D5DD ;
+    width: 60em;
+    margin-bottom: 1em;
+}
+
+.peliculas figure{
+    width: 13em;
+    height: 35vh;
+}
+
+.peliculas figure img{
+    width: 100%;
+    height: 100%;
+}
+
+.peliculas article .borrar-editar {
+    width: 3em;
+    height: 3vh;
+    display: flex;
+    flex-direction: row;
+    padding-top: 1.4em;
+}
+.peliculas article .borrar-editar img {
+    width: 100%;
+    height: 100%;
+}
+
+section .peliculas article p{
+    padding-top: 1.4em;
+
+}
+
+.imagenDeUsuario {
+    display: flex;
+    flex-direction: row;
+    height: 3vh;
+    width: 13em;
+    padding: 1em;
+    
+}
+
+.imagenDeUsuario img{
+    height: 100%;
+    width: 13%;
+    
+    padding-right: 0.4em;
+}
+
+.imagenDeUsuario a{
+    text-decoration: none;
+    color: black;
+}
+
+.separadorDelUsuario {
+    width: 17;
+    height: 0.4em;
+    background-color: #e90b73;
+    margin-bottom: 1em;
+}
