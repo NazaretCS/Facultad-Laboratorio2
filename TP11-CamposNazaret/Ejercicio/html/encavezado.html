@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php 
+
+
+   
+    
+    if (!empty($_SESSION['usuario']) && isset($_COOKIE['estilo'.$_SESSION['usuario']]) && $_COOKIE['estilo'.$_SESSION['usuario']] == 'moderno') {
+        echo '<link rel="stylesheet" href="'.$ruta.'/estilo_moderno.css">';
+    } else {
+        echo '<link rel="stylesheet" href="'.$ruta.'/estilo.css">';
+    }
+    ?>
+    
+
+
+    <title>TP11</title>
+</head>
+<body>
+    <header>
+        <h1>TP N° 7, Módulo II</h1>
+    </header>
+    
+    
+
